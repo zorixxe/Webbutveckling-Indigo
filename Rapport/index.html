@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indigo</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="..">
+            <h1>Indigo restuarang och bar</h1>
+        </a>
+    </header>
+
+    <!-- Planen är att dessa ska leda till olika meyer och annat och att titlen ska kunna klickas tillbakca till start-->
+
+
+    <!-- Här kommer menyn för att navigera sidan till diverse.-->
+
+
+    <nav class="navM ">
+        <div class="nav">
+            <a href="../Omoss/index.html">Om oss</a>
+            <a href="../Àlacarte/index.html">À la carte</a>
+            <a href="../Bistro/index.html">Bistro</a>
+            <a href="../Lunch/index.html">Lunch</a>
+            <a href="../Kontaktaoss/">Kontakta oss</a>
+            <a href="../Bilder/">Bilder</a>
+        </div>
+    </nav>
+
+    <p class="titel">
+        Rapport
+        <br><br>
+    </p>
+    <p>
+        Planen var att laga en sida för en restuarang.
+        Hemsidan skulle lätt berätta om miljön och idén med
+        restaurangen. Man skulle kunna se bilder på maten
+        samt enkelt se menyerna. Planen var att sidan skulle
+        rikta sig mot eventuella gäster som var intresserade
+        av restuarangen.
+
+
+
+        <br><br>
+        Iden var som sådan att <br>
+        1. Skapa en hemsida för en restaurang<br>
+        2. Ha bilder på diverse mat och läge<br>
+        3. Visa var det ligger<br>
+        4. Restaurangens koncept<br>
+        5. Menyer<br>
+        6. Kontaktuppgifter <br>
+        7. Primärt dator men också mobil och tablets. <br>
+        <br>
+        En skiss gjordes som sådan.
+        Jag visste redan att jag ville ha nån form av tegel som bakgrund.
+        <br><br>
+
+    </p>
+    <div class="imgs">
+        <div id="skiss">
+            <img src="../bilderstorage/skissfixed.jpg" alt="something went wrong">
+            <br><br>
+            <img src="../bilderstorage/sitemap.jpg" alt="something went wrong">
+            <br>
+            <img src="../bilderstorage/font.jpg.png" alt="something went wrong">
+        </div>
+    </div><br>
+    <p>Och site-mapen</p>
+    <br><br>
+    <p>
+        Det blev några ändringar under utvecklingen på layouten, t.ex
+        "mitt namn" blev nere i höger hörn istället för mitten av
+        sidan och en "RAPPORT" blev tillsatt i vänster hörn samt
+        "bilder" kom till i "menyn". Det svåraste var att börja
+        med menyn och få den att fungera. Det var absolut det som
+        tog längst tid. Sedan ville jag att man skulle kunna ta sig
+        tillbaka "hem" igen på ett smidigt sätt och beslutade att
+        klicka på "Indigo" skulle ta en tillbaka "hem"-knapp. Att
+        bli av med den blå stilen på texten tog sin lila tid med en
+        del strul men gick till slut.
+        <br><br>
+        När jag skulle börja skriva in texten på sidan så ville texten
+        alltid bara vara högst upp på sidan. Jag satt länge med det
+        problemet men efter lite hjälp av Dennis så kom vi fram till
+        att min använding av top %, left % och posistion absolut var
+        problemet. Och lösningen var så simpelt som att ta bort det
+        och lägga dit text-alight center.
+        <br><br>
+        Sedan kom jag på att på Lunch sidan kunde jag lägga dit en iframe med länk tills Ålands lunchguide och på så
+        sätt skulle sidan uppdateras varje dag och automatiskt visa dagens lunch.
+        Både bistro och a ala carten varar i ca 2 månader så dessa sidor behöver inte uppdateras lika mycket. Men
+        eftersom i verkligenheten behöver lunchen uppdateras dagligen eller en vecka i taget kände jag att på detta viss
+        skulle "kunden" spara tid.
+
+        <br><br>
+        Men det visade sig att de har blockat folk från att använda sin sida i iframes. :( Så skickade ett mail men
+        annars övergav idén för tillfället.
+        Fick svar från dom vid senare tillfälle att jag fick tillåtelse att cracka det för att få den att fungera, men
+        kände att det var lite onödigt då man inte får göra det egentligen. Därför körde jag på en vanlig lunch meny på
+        sidan.
+
+        <br> <br>
+        Började sedan på "Bilder" tabben som gick snabbt att få att fungera med majoriteten av tiden gick till att
+        editera bilderna att vara i rätt size och fromat så att det inte skulle ta onödigt space.
+        <br> <br>
+        För att få hemsidan finare på mobil och fungera smidigt och enkelt gjorde jag så att vid 1300px försvinner
+        Iframen från "bilder" sidan samt skisserna från "rapport" sidan.
+        <br>
+        Min svg samt audio snip lades in i rapport bara för att jag inte tyckte den hörde hemma på något bra sätt på
+        huvudsidan. Ignorera den konstiga färgen på audio controlls, är färgblind och förskte få det att matscha. Min
+        animering på sidan är den 0,2 sec delayn som är på att hoovra över menyn och den söta lila BIKY the bike lägnst
+        ner på Rapport sidan. Animeringen för hojen försvinner vid tablet/phone mode.
+        <br> <br>
+        Valideringen var ett av de sista projekten. Var en hel del "rookie mistakes" i koden. Så som ett onödigt
+        använade av "id" som egentligen kunde vara "classes". Eller lite öppna och kostigt stängda tags som man tidigare
+        inte hade sett. Och så hade man glömt sätta dit en "alt" på alla bilder i princip.
+
+
+    </p>
+    <br><br>
+    <div id="svg">
+        <svg>
+
+
+            <g>
+                <ellipse style="fill:#ffff00;stroke-width:0.264583" id="path185" cx="28.508825" cy="25.348345"
+                    rx="23.090858" ry="20.704372" />
+                <rect style="fill:#280b0b;stroke-width:0.264583" id="rect395-8" width="3.2249804" height="10.835933"
+                    x="37.21627" y="13.544918" />
+                <rect style="fill:#280b0b;stroke-width:0.264583" id="rect395" width="3.2249804" height="10.835933"
+                    x="16.253901" y="13.15792" />
+                <rect style="fill:#280b0b;stroke-width:0.264583" id="rect443" width="24.122852" height="2.9669819"
+                    x="16.253901" y="32.378803" />
+            </g>
+        </svg>
+    </div>
+    <div class="audio">
+        <audio controls>
+            <source src="../ljud/relax.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+
+    <br><br>
+    <div class="imgs">
+        <img src="../bilderstorage/poseklippa2.jpg" alt="something went wrong">
+        <img src="../bilderstorage/oopsfixed.JPG" alt="something went wrong">
+        <img src="../bilderstorage/poseklippa.JPG" alt="something went wrong">
+        <br>
+        <img id="crazy" src="../bilderstorage/crazyfixed.JPG" alt="something went wrong">
+
+    </div>
+    <div id="anime">
+        <img id="bike" src="../bilderstorage/bike.svg" alt="REEEEEEEEE">
+        <!--credits https://svgsilh.com/image/311697.html-->
+    </div>
+
+
+
+    <footer>
+        <div class="name">
+            <p>made by Robin Daniel Tildeman</p>
+        </div>
+        <div class="rapport"><a href="../Rapport/">Rapport</a></div>
+    </footer>
+</body>
+
+</html>

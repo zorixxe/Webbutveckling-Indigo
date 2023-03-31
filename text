@@ -1,0 +1,34 @@
+<a href="https://www.google.com/maps/place/1+Nygatan,+Mariehamn+22100,+%C3%85land/@60.1001621,19.9410239,17z/data=!3m1!4b1!4m5!3m4!1s0x468ac38a7f8939c1:0xdf5100f8c9888379!8m2!3d60.1001621!4d19.9432126">Vart vi ligger!</a>
+
+
+<iframe src="./bilder/bläckfisk.JPG" name="nått" ></iframe><br>
+    <a href="./bilder/Festlighet.jpg" target="nått">byt</a>
+    <a href="./bilder/bläckfisk.JPG" target="nått"<><img src="./bilder/bläckfisk.JPG" alt="">
+
+        openstreetmaps.org
+
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=19.941196685391798%2C60.09960239746479%2C19.944643323975935%2C60.10049420737964&amp;layer=mapnik&amp;marker=60.10004830543972%2C19.942920004683856" ></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=60.10005&amp;mlon=19.94292#map=19/60.10005/19.94292">View Larger Map</a></small>
+        style="border: 1px solid black"
+
+        leafletjs.com
+
+        https://www.aland.com/lunch#restaurant-2
+
+        <img src="../bilderstorage/alacarte1.JPG" alt="">
+        <img src="../bilderstorage/alacarte10.JPG" alt="">
+        <img src="../bilderstorage/alacarte11.jpg" alt="">
+        <img src="../bilderstorage/alacarte12.jpg" alt="">
+        <img src="../bilderstorage/alacarte13.jpg" alt="">
+
+
+
+
+LUNCH BILDERNA FÄRDIGT
+
+        <img id="imgleft" src="../bilderstorage/lunch1.JPG" alt="something went wrong">
+        <img id="imgcent" src="../bilderstorage/poselunch.jpg" alt="something went wrong">
+        <img id="imgright" src="../bilderstorage/lunch2.JPEG" alt="something went wrong">
+    
+
+
+        <iframe src="https://www.aland.com/lunch/" ></iframe><br/><small><a href="https://www.aland.com/lunch#restaurant-2/" target="_blank" rel="noopener noreferrer"">visa hela lunchguiden</a></small>
